@@ -11582,14 +11582,14 @@ html {
   position: relative;
   height: 75vw;
   width: 75vw;
-  border-radius: 5vw;
+  border-radius: 2vw;
   margin-top: 5vw;
   max-height: 40rem;
   max-width: 40rem;
 }
 .profile .profile-img {
   height: 80vw;
-  max-height: 45rem;
+  max-height: 41.75rem;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -11599,7 +11599,7 @@ html {
   position: absolute;
   width: 3vw;
   right: 1.5vw;
-  top: 4vw;
+  top: 14vw;
 }
 .profile .dots-1 svg {
   fill: #fff;
@@ -11608,7 +11608,7 @@ html {
   position: absolute;
   width: 3vw;
   right: -4vw;
-  top: 6.05vw;
+  top: 16.05vw;
 }
 .profile .dots-2 svg {
   fill: #1e30f3;
@@ -11617,7 +11617,7 @@ html {
   position: absolute;
   width: 3vw;
   left: 1.5vw;
-  bottom: 6.05vw;
+  bottom: 16.05vw;
 }
 .profile .dots-3 svg {
   fill: #fff;
@@ -11626,7 +11626,7 @@ html {
   position: absolute;
   width: 3vw;
   left: -4vw;
-  bottom: 4vw;
+  bottom: 14vw;
 }
 .profile .dots-4 svg {
   fill: #1e30f3;
@@ -11713,7 +11713,7 @@ html {
     width: 35vw;
   }
   .profile .profile-img {
-    height: 40vw;
+    height: 36.5vw;
   }
   .profile .dots-1 {
     width: 1.5vw;
