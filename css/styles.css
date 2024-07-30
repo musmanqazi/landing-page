@@ -11632,6 +11632,21 @@ html {
   fill: #1e30f3;
 }
 
+@media (max-width: 500px) {
+  .profile .dots-1 {
+    top: 34vw;
+  }
+  .profile .dots-2 {
+    top: 36.05vw;
+  }
+  .profile .dots-3 {
+    bottom: 36.05vw;
+  }
+  .profile .dots-4 {
+    bottom: 34vw;
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     height: 60vw;
