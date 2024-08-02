@@ -4292,6 +4292,23 @@ textarea.form-control-lg {
   margin-bottom: var(--bs-card-group-margin);
 }
 
+.course-description {
+  display: none;
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  background-color: #f8f9fa;
+}
+.course-title {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: none;
+}
+.course-title:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 576px) {
   .card-group {
     display: flex;
