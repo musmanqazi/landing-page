@@ -5,3 +5,12 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+function toggleDescription(courseId) {
+    var descriptions = document.getElementsByClassName('course-description');
+    for (var i = 0; i < descriptions.length; i++) {
+        descriptions[i].style.display = 'none';
+    }
+    var courseDescription = document.getElementById(courseId);
+    courseDescription.style.display = 'block';
+}
