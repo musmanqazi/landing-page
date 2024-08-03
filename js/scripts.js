@@ -21,3 +21,10 @@ function toggleDescription(courseId) {
         courseDescription.style.display = 'block';
     }
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    const path = window.location.pathname;
+    if (path.endsWith('.html')) {
+        window.history.replaceState({}, '', path.slice(0, -5));
+    }
+});
