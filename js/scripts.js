@@ -24,7 +24,18 @@ function toggleDescription(courseId) {
 
 document.addEventListener("DOMContentLoaded", function() {
     const path = window.location.pathname;
-    if (path.endsWith('.html')) {
-        window.history.replaceState({}, '', path.slice(0, -5));
+    const host = window.location.host;
+    const isLocal = host.startsWith('127.0.0.1') || host.startsWith('localhost');
+
+    if (isLocal) {
+        // Local development routing
+        if (!path.endsWith('.html') && !path.endsWith('/')) {
+            window.location.replace(path + '.html');
+        }
+    } else {
+        // Production routing
+        if (path.endsWith('.html')) {
+            window.history.replaceState({}, '', path.slice(0, -5));
+        }
     }
 });
