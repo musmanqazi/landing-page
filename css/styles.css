@@ -618,6 +618,7 @@ progress {
   .img-fluid {
     margin: auto;
     margin-top: 2.2rem;
+    max-height: 375px;
   }
 
   .btn-github {
